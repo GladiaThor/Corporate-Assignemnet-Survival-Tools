@@ -1,4 +1,4 @@
-# Corporate Assignemnet Survial Tools
+# Corporate Assignemnet Survival Tools
 Set of tools to help developers survive corporate IT policie.
 
 # Java dev env for windows
