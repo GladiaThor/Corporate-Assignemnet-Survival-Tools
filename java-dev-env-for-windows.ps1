@@ -7,7 +7,7 @@ choco install intellijidea-ultimate -y
 choco install sublimetext3 -y
 choco install notepadplusplus  -y
 choco install jdk8 -y
-choco install jdk8 -y
+choco install jdk11 -y
 choco install maven -y
 choco install robo3t -y
 choco install python -y
