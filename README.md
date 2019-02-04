@@ -1,8 +1,8 @@
 # Corporate Assignemnet Survival Tools
-Set of tools to help developers survive corporate IT policie.
+Set of tools to help developers survive corporate IT policies.
 
 # Java dev env for windows
-It is a powershell script that installa most nessecery tools for working with corporate java on a windows machine as well as some nice to have tools such as CMDER bash terminal (because who wants to use powershell/cmd) and Chocolaty command line install tool.
+This is a powershell script that installs most nessecery tools for working with corporate java on a windows machine as well as some nice to have tools such as CMDER bash terminal (because who wants to use powershell/cmd) and Chocolaty command line install tool.
 
 The following are installed:
 - chocolaty
