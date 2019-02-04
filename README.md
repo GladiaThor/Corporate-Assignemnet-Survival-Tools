@@ -20,3 +20,7 @@ The following are installed:
 - python3
 - docker
 - slack
+
+
+# Git Conf
+This is a bash script that will fast track config git for window to not mess up your files on commit and it generates an ssh key and copies it to clipboard so you can paste it into your company repo ssh-key handler.
