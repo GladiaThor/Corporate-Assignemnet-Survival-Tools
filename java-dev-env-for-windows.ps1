@@ -11,5 +11,5 @@ choco install jdk11 -y
 choco install maven -y
 choco install robo3t -y
 choco install python -y
-choco install docker -y
+choco install docker-desktop -y
 choco install slack -y
