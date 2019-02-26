@@ -1,3 +1,13 @@
+If (-NOT ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator"))
+
+{   
+$arguments = "& '" + $myinvocation.mycommand.definition + "'"
+Start-Process powershell -Verb runAs -ArgumentList $arguments
+Break
+}
+$chocolateyBin = [Environment]::GetEnvironmentVariable("ChocolateyInstall", "Machine") + "\bin"
+$cinst = "$chocolateyBin\cinst.exe"
+$choco = "$chocolateyBin\choco.exe"
 $Packages =  'git','cmder','intellijidea-ultimate','sublimetext3','notepadplusplus','python'
 if (-not (Test-Path $cinst) -or -not (Test-Path $choco)) {
     Write-Output "Chocolatey was not found at $chocolateyBin. Installing Chocolatey"
