@@ -8,7 +8,7 @@ Break
 $chocolateyBin = [Environment]::GetEnvironmentVariable("ChocolateyInstall", "Machine") + "\bin"
 $cinst = "$chocolateyBin\cinst.exe"
 $choco = "$chocolateyBin\choco.exe"
-$Packages =  'git', 'cmder', 'nodejs', 'yarn',  'intellijidea-ultimate','sublimetext3', 'notepadplusplus',  'jdk8', 'jdk11', 'maven', 'robo3t', 'python', 'docker-desktop', 'slack'
+$Packages =  'git', 'cmder', 'nodejs', 'yarn',  'intellijidea-ultimate','sublimetext3', 'notepadplusplus',  'jdk8', 'openjdk11', 'maven', 'robo3t', 'python', 'docker-desktop', 'slack'
 if (-not (Test-Path $cinst) -or -not (Test-Path $choco)) {
     Write-Output "Chocolatey was not found at $chocolateyBin. Installing Chocolatey"
     Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
