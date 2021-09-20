@@ -22,7 +22,7 @@ The following are installed:
 - slack
 
 # Python dev env for windows
-This is a powershell script that installs most nessecery tools for working with python on a windows machine as well as some nice to have tools such as CMDER bash terminal (because who wants to use powershell/cmd) and Chocolaty command line install tool. Will only install tols if you don't already have them.
+This is a powershell script that installs most nessecery tools for working with python on a windows machine as well as some nice to have tools such as CMDER bash terminal (because who wants to use powershell/cmd) and Chocolaty command line install tool. Will only install tools if you don't already have them.
 
 The following are installed:
 - chocolaty
